@@ -4417,7 +4417,7 @@ button.close {
 
   @media screen and (max-width: 768px) {
   .modal-content { 
-    width: 400px;
+    width: 100%;
     height: fit-content;}}  
 
 .modal-backdrop {
@@ -4472,7 +4472,7 @@ button.close {
   @media screen and (max-width: 768px) {
   .modal-body img { 
     height: 350px;
-    width: 365px;}}  
+    width: 100%;}}  
 
 .modal-body p{
   color: white;
@@ -4497,6 +4497,10 @@ button.close {
   .modal-footer > :not(:last-child) {
     margin-right: .25rem; }
 
+@media screen and (max-width: 768px) {
+  .modal-footer button {
+    font-size:13px;}}
+
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -4515,7 +4519,7 @@ button.close {
 
 @media (max-width: 767px){
   .modal-dialog{
-    max-width: 400px;
+    max-width: 95%;
     margin: 1.75rem auto;
   }
 }
