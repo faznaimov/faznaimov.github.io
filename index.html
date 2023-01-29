@@ -177,32 +177,33 @@
               <h2 class="heading">The Simpsons Characters Recognition App</h2>
               <p>Application built on Convolutional Neural Network (CNN) to recognize The Simpsons characters. Tech stack: Python, CNN, Tensorflow, Flask, JavaScript, HTML, CSS, Bootstrap.</p>
               <p><a href="https://github.com/faznaimov/simpsons-classification" target="_blank">View Project Github</a></p>
-              <p><a href="http://simpsons-classification.herokuapp.com/" target="_blank">View Deployed Page</a></p>
+              <p><a href="https://simpsons-app.onrender.com" target="_blank">View Deployed Page</a></p>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a class="image d-flex justify-content-center align-items-center" style="background-image: url('images/us-dashboard.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+            <a class="image d-flex justify-content-center align-items-center" style="background-image: url('images/mlpipe.jpeg'); " data-scrollax=" properties: { translateY: '-30%'}">
               <div class="d-flex text-center justify-content-center align-items-center">
               </div>
             </a>
             <div class="text">
-              <h2 class="heading">US Wildfire Dashboard</h2>
-              <p>The dashboard shows the number of fires that happened each year, and it also provided users the ability to see the number of fires by cause of the fire. D3 is used to make the dashboard interactive. An interactive map illustrates the occurrence of the fire by location, time, and fire size. Kepler.gl map is used. Currently, the map has only data from 2015. Tech stack: Python, Flask, CSS, HTML, Bootstrap, JavaScript, SQLAlchemy, D3, Kepler.gl.</p>
-              <p><a href="https://github.com/faznaimov/US-wildfire-dashboard/" target="_blank">View Project Github</a></p>
-              <p><a href="http://us-wildfire-dashboard.herokuapp.com/" target="_blank">View Deployed Page</a></p>
+              <h2 class="heading">ML Pipeline for Short-Term Rental Prices in NYC</h2>
+              <p>Project on building a complete end to end ML pipeline to predict rental prices for AirBnB rentals using MLFlow and Weights and Biases.</p>
+              <p><a href="https://github.com/faznaimov/ml-pipeline-for-short-term-rental-prices" target="_blank">View Project Github</a></p>
             </div>
           </div>
           <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-              <a class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/music-venues-analysis.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <a class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/fastapi.jpeg'); " data-scrollax=" properties: { translateY: '-30%'}">
                 <div class="d-flex text-center justify-content-center align-items-center">
                 </div>
               </a>
               <div class="text order-1">
-                <h2 class="heading">Music-Related Venue Analysis: New York City</h2>
-                <p>Research on most popular music venues in NYC using Foursquare API data. Analysis has been done on popular categories by neighborhood, top liked, and rated venues, a correlation between likes, ratings, number of venues, and neighborhoods. Tech stack: Python, Pandas, Matplotlib, API, Linear Regression, Gmap.</p>
-                <p><a href="https://github.com/faznaimov/music-venues-analysis/" target="_blank">View Project Github</a></p>
+                <h2 class="heading">Salary Predictor Application with FastAPI</h2>
+                <p>Salary prediction model that is trained on Census Bureau data and deployed with FastAPI. A remote DVC pointing to AWS S3 bucket that tracks data changes. In addition, wrote unit tests to monitor the model performance on various slices of the data. Deployed my model using the FastAPI package and created API tests. Both the slice-validation and the API tests are incorporated into a CI/CD framework using GitHub Actions.</p>
+                <p><a href="https://github.com/faznaimov/salary_predictor_app" target="_blank">View Project Github</a></p>
+                <p><a href="https://salary-predictor.onrender.com/docs" target="_blank">View Deployed Page</a></p>
               </div>
           </div>
+        </div>
           </div>
         </div>
       </section>
@@ -371,6 +372,38 @@
                   </div>
                 </div>
               </div>
+              <div class="col-lg-4 col-md-6 all python">
+                <div class="portfolio_box" data-toggle="modal" data-target="#music-venue">
+                  <div class="single_portfolio">
+                    <img class="img-fluid w-100" src="images/music-venues-analysis.png" alt="">
+                    <div class="overlay"></div>
+                    <a href="images/music-venues-analysis.png" class="img-gal">
+                      <div class="icon">
+                        <span class="lnr lnr-cross"></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="short_info">
+                    <h4>Music-Related Venue Analysis: New York City</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 python all js web">
+                <div class="portfolio_box" data-toggle="modal" data-target="#fire-dash">
+                  <div class="single_portfolio">
+                    <img class="img-fluid w-100" src="images/us-dashboard.jpg" alt="">
+                    <div class="overlay"></div>
+                    <a href="images/us-dashboard.jpg" class="img-gal">
+                      <div class="icon">
+                        <span class="lnr lnr-cross"></span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="short_info">
+                    <h4>US Wildfire Dashboard</h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -403,8 +436,63 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-success" onclick="window.open('http://belly-button-faz.herokuapp.com/');">View Deployed Page</button>
                 <button type="button" class="btn btn-info" onclick="window.open('https://github.com/faznaimov/Belly_Button_Biodiversity');">View Project Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="fire-dash" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">US Wildfire Dashboard</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="images/us-dashboard.jpg" alt="">
+                <p>The dashboard shows the number of fires that happened each year, and it also provided users the ability to see the number of fires by cause of the fire. D3 is used to make the dashboard interactive. An interactive map illustrates the occurrence of the fire by location, time, and fire size. Kepler.gl map is used. Currently, the map has only data from 2015. Tech stack: Python, Flask, CSS, HTML, Bootstrap, JavaScript, SQLAlchemy, D3, Kepler.gl.</p>
+                <div class="tags">
+                  <span class="tag">flask</span>
+                  <span class="tag">d3</span>
+                  <span class="tag">javascript</span>
+                  <span class="tag">bootstrap</span>
+                  <span class="tag">heroku</span>
+                  <span class="tag">sqlalchemy</span>
+                  <span class="tag">html</span>
+                  <span class="tag">css</span>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" onclick="window.open('https://us-wildfire.onrender.com');">View Deployed Page</button>
+                <button type="button" class="btn btn-info" onclick="window.open('https://github.com/faznaimov/US-wildfire-dashboard/');">View Project Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="music-venue" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Music-Related Venue Analysis: New York City</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img src="images/music-venues-analysis.png" alt="">
+                <p>Research on most popular music venues in NYC using Foursquare API data. Analysis has been done on popular categories by neighborhood, top liked, and rated venues, a correlation between likes, ratings, number of venues, and neighborhoods. Tech stack: Python, Pandas, Matplotlib, API, Linear Regression, Gmap.</p>
+                <div class="tags">
+                  <span class="tag">python</span>
+                  <span class="tag">api</span>
+                  <span class="tag">pandas</span>
+                  <span class="tag">matplotlib</span>
+                  <span class="tag">gmaps</span>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info" onclick="window.open('https://github.com/faznaimov/music-venues-analysis/');">View Project Github</button>
               </div>
             </div>
           </div>
